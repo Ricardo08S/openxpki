@@ -141,3 +141,24 @@ Login sebagai Common User untuk melakukan Request Certificate. Mengikuti alur ya
 
 ![request-ca](/documentation/request-ca.png)
 
+Lalu login sebagai RA Operator untuk melakukan approve request yang diajukan, akan seperti ini:
+
+![approve-ca](/documentation/approve-ca.png)
+
+Jika sudah maka bisa login lagi sebagai common user untuk melihat certificate yang sudah ter generate. Dan juga bisa minta revoke jika certificate tersebut bermasalah. Dokumentasinya bisa dilihat di my workflows:
+
+Request Revoke CA:
+
+![revoke-ca](/documentation/revoke-ca.png)
+
+Memantau workflows yang sudah diajukan:
+
+![approve-revoke](/documentation/approve-revoke.png)
+
+Lalu dari RA Operator bisa melakukan approve untuk revokenya dengan tampilan seperti ini sudah di ajukan:
+
+![revoke-approved](/documentation/revoke-ca-approved.png)
+
+Terakhir dari CA Operator juga memiliki beberapa fungsionalitas seperti ini:
+
+![ca-ui](/documentation/ca-ui.png)
